@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <header>
+        <button id="scores-btn">View High Scores</button>
+        <h1>Coding Quiz Challenge</h1>
+        <button disabled id="timer"></button>
+        <div>Time: <span id="timer"></span></div>
+        <h2 class="timer-count">Time:60 </h2>
+        </div>
+    </header>
+
+    <main>
+        <header>
+            <span id="timer"></span></div>
+        </header>
+        <main>
+            <div id="start-game-text">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Click start to begin the quiz. You will have 60 seconds to answer 5 questions about JavaScript. Each wrong answer deducts 10 seconds from the clock. Your final score is the time remaining on the clock. </p>
+            </div>
+            <button class="btn" id="start-button" type="button">Start</button>
+            <div id="question">
+                <h1 id="question-text"></h1>
+                <div class="answer-choices"></div>
+            </div>
+            <div class="end-game hide">
+                <h2 id="end-game-title">All done!</h2>
+                <h3>Your final score is <span id="final-score"></span></h3>
+                <p>Please enter your initials and save your high score.</p>
+                <div id="new-score">
+                    <input type="text" id="initials">
+                    <button id="submit-score">Submit Score</button>
+                </div>
+            </div>
+            <div id="high-score-page" class="hide">
+                <h2>High Score</h2>
+                <div id="scores"></div>
+        </div>
+    </main>
+
+    <script src="./Assets/js/script.js"></script>
+</body> 
+</html>
