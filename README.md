@@ -26,4 +26,4 @@ THEN I can save my initials and score
 ## Links
 GitHub: https://github.com/DLEllis07/Coding-Quiz
 
-Deployed: 
+Deployed: https://dlellis07.github.io/Coding-Quiz
